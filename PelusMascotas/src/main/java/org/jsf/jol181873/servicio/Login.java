@@ -41,7 +41,7 @@ public class Login implements Serializable {
 
 				return null;
 			} else {
-				return "loginValido";
+				return "hola";
 			}
 		}
 	}
