@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean y build jdbc</actionName>
+            <displayName>clean y build jdbc</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>build</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>jdbc</activatedProfile>
+            </activatedProfiles>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean y compile jdbc</actionName>
+            <displayName>clean y compile jdbc</displayName>
+            <goals>
+                <goal>clean:clean</goal>
+                <goal>compiler:compile</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>jdbc</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
